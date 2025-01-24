@@ -85,7 +85,7 @@ docker-compose up --build
 
 📝 Autor
   *  Desarrollado por Guido como proyecto integrador final para el curso de TodoCode Academy.
-
+```plaintext
 📂 Estructura del Proyecto
 tienda-electrodomesticos/
 ├── eureka-sv/
