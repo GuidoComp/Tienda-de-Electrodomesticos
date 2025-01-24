@@ -66,27 +66,27 @@ Se utiliza una arquitectura de microservicios basada en Spring Cloud, con las si
    cd tienda-electrodomesticos
 ```
 
-3. Construye y levanta los contenedores:
+2. Construye y levanta los contenedores:
 docker-compose up --build
 
-4. Accede a los microservicios a través de la API Gateway en http://localhost:8080.
+3. Accede a los microservicios a través de la API Gateway en http://localhost:8080.
 
-5. Prueba los endpoints utilizando Postman o cualquier cliente HTTP.
+4. Prueba los endpoints utilizando Postman o cualquier cliente HTTP.
 
 🧪 Pruebas
 1. Balanceo de carga:
-  *  Crea múltiples instancias del Microservicio de Productos y verifica con Postman que las solicitudes se distribuyan entre ellas.
+- Crea múltiples instancias del Microservicio de Productos y verifica con Postman que las solicitudes se distribuyan entre ellas.
 2. Circuit Breaker:
-  *  Simula errores de comunicación y valida la ejecución del método fallback.
+- Simula errores de comunicación y valida la ejecución del método fallback.
 3. Docker:
-  *   Asegúrate de que todos los servicios se comuniquen correctamente en el entorno Docker.
+-  Asegúrate de que todos los servicios se comuniquen correctamente en el entorno Docker.
   
 🎉 Bonus
-  *  Repositorio Git: Este proyecto está gestionado local y remotamente con Git y GitHub.
-  *  Servidor Centralizado de Configuraciones: Implementado utilizando Spring Cloud Config Server para gestionar configuraciones de los servicios.
+-  Repositorio Git: Este proyecto está gestionado local y remotamente con Git y GitHub.
+-  Servidor Centralizado de Configuraciones: Implementado utilizando Spring Cloud Config Server para gestionar configuraciones de los servicios.
 
 📝 Autor
-  *  Desarrollado por Guido como proyecto integrador final para el curso de TodoCode Academy.
+-  Desarrollado por Guido como proyecto integrador final para el curso de TodoCode Academy.
 ```plaintext
 📂 Estructura del Proyecto
 tienda-electrodomesticos/
@@ -99,6 +99,7 @@ tienda-electrodomesticos/
 ├── config-data/
 ├── docker-compose.yml
 └── README.md
+```
 
 📌 Notas
 Este proyecto fue desarrollado como parte del curso, pero también está diseñado para formar parte de mi portafolio profesional. ¡Espero que sea de utilidad para futuros empleadores o colaboradores! 😄
