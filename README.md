@@ -74,19 +74,19 @@ docker-compose up --build
 
 5. Prueba los endpoints utilizando Postman o cualquier cliente HTTP.
 
-🧪 Pruebas
-1. Balanceo de carga:
+## 🧪 Pruebas
+### 1. Balanceo de carga:
   - Crea múltiples instancias del Microservicio de Productos y verifica con Postman que las solicitudes se distribuyan entre ellas.
-2. Circuit Breaker:
+### 2. Circuit Breaker:
   - Simula errores de comunicación y valida la ejecución del método fallback.
-3. Docker:
+### 3. Docker:
   -  Asegúrate de que todos los servicios se comuniquen correctamente en el entorno Docker.
   
-🎉 Bonus
+## 🎉 Bonus
   -  Repositorio Git: Este proyecto está gestionado local y remotamente con Git y GitHub.
   -  Servidor Centralizado de Configuraciones: Implementado utilizando Spring Cloud Config Server para gestionar configuraciones de los servicios.
 
-📝 Autor
+## 📝 Autor
   -  Desarrollado por Guido como proyecto integrador final para el curso de TodoCode Academy.
 ```plaintext
 📂 Estructura del Proyecto
@@ -102,5 +102,5 @@ tienda-electrodomesticos/
 └── README.md
 ```
 
-📌 Notas
+## 📌 Notas
 Este proyecto fue desarrollado como parte del curso, pero también está diseñado para formar parte de mi portafolio profesional. ¡Espero que sea de utilidad para futuros empleadores o colaboradores! 😄
