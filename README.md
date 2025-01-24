@@ -33,7 +33,7 @@ Crear un sistema compuesto por tres microservicios para gestionar diferentes asp
 - **Java 17**
 - **Spring Boot** (Spring Cloud, Eureka, Resilience4J)
 - **Docker y Docker Compose**
-- **PostgreSQL** (base de datos)
+- **MySQL** (base de datos)
 - **API Gateway**
 - **Herramientas de pruebas**: Postman
 - **Sistema de control de versiones**: Git y GitHub
@@ -61,15 +61,17 @@ Se utiliza una arquitectura de microservicios basada en Spring Cloud, con las si
 
 ### Instrucciones
 1. Clona este repositorio:
-   git clone [https://github.com/tuusuario/tienda-electrodomesticos.git](https://github.com/GuidoComp/Tienda-de-Electrodomesticos)
+```bash
+   git clone https://github.com/GuidoComp/Tienda-de-Electrodomesticos
    cd tienda-electrodomesticos
+```
 
-2. Construye y levanta los contenedores:
+3. Construye y levanta los contenedores:
 docker-compose up --build
 
-3. Accede a los microservicios a través de la API Gateway en http://localhost:8080.
+4. Accede a los microservicios a través de la API Gateway en http://localhost:8080.
 
-4. Prueba los endpoints utilizando Postman o cualquier cliente HTTP.
+5. Prueba los endpoints utilizando Postman o cualquier cliente HTTP.
 
 🧪 Pruebas
 1. Balanceo de carga:
